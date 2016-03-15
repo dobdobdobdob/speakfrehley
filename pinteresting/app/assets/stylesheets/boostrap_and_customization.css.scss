@@ -6,9 +6,18 @@ $navbar-height:                    45px;
 $navbar-default-bg:                white;
 $navbar-default-brand-color:       #c0392b;
 $brand-primary:                    #c0392b;
-$jumbotron-bg:                     white;@import 'bootstrap-sprockets';
+$jumbotron-bg:                     white;
+
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
-@import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.eot"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
